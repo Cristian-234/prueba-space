@@ -38,7 +38,7 @@ export async function createScene(renderer) {
 
   // Cargar terreno GLTF
   const loader = new GLTFLoader();
-  const gltf = await loader.loadAsync('./public/models/superficie.glb');
+  const gltf = await loader.loadAsync('./models/superficie.glb');
   const terrain = gltf.scene;
   terrain.scale.set(10, 10, 10);
   terrain.position.set(0, 0, 0);
