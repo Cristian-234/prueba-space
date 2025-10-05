@@ -38,7 +38,7 @@ export async function createScene(renderer) {
 
   // Cargar terreno GLTF
   const loader = new GLTFLoader();
-  const gltf = await loader.loadAsync('./models/paisaje_local_rov.glb');
+  const gltf = await loader.loadAsync('./public/models/paisaje_local_rov.glb');
   const terrain = gltf.scene;
   terrain.scale.set(10, 10, 10);
   terrain.position.set(0, 0, 0);

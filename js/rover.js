@@ -29,7 +29,7 @@ export class Rover {
             const loader = new GLTFLoader();
             
             loader.load(
-                './models/rover.glb', // Cambia por la ruta de tu modelo
+                './public/models/rover.glb', 
                 (gltf) => {
                     this.model = gltf.scene;
                     this.model.scale.set(0.8, 0.8, 0.8);

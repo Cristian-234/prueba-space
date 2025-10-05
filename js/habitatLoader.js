@@ -2,9 +2,9 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 const habitatModels = {
-    sphere: './models/hab_1.glb',
-    cylinder: './models/hab_2.glb',
-    inflatable: './models/hab_3.glb'
+    sphere: './public/models/hab_1.glb',
+    cylinder: './public/models/hab_2.glb',
+    inflatable: './public/models/hab_3.glb'
 };
 
 export class HabitatLoader {
