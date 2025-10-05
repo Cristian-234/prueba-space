@@ -29,7 +29,7 @@ export class Astronaut {
             const loader = new GLTFLoader();
             
             loader.load(
-                './public/models/astronauta.glb',
+                './models/astronauta.glb',
                 (gltf) => {
                     this.model = gltf.scene;
                     this.model.scale.set(0.8, 0.8, 0.8);

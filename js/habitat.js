@@ -62,11 +62,11 @@ export async function createHabitat(shape = 'sphere', radius = 1.5, height = 3, 
 async function createZones(habitatGroup, shape, radius, height, zones) {
     // Rutas CORREGIDAS de modelos de zona
     const zoneModels = {
-        'Descanso': './public/models/z_descanso.glb',
-        'Ejercicio': './public/models/z_ejercicio.glb',
-        'Soporte Vital': './public/models/z_svit.glb',
-        'Alimentos': './public/models/z_comida.glb',
-        'Higiene': './public/models/z_hig.glb'
+        'Descanso': './models/z_descanso.glb',
+        'Ejercicio': './models/z_ejercicio.glb',
+        'Soporte Vital': './models/z_svit.glb',
+        'Alimentos': './models/z_comida.glb',
+        'Higiene': './models/z_hig.glb'
     };
 
     // ESCALAS INDIVIDUALES POR TIPO DE ZONA
